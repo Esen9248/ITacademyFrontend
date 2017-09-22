@@ -3,3 +3,50 @@
 	width: 200px;
 	height: 50px;
 }
+.top_table{
+	padding-right: 50px;
+
+}
+.slider{
+	background: url("slider.jpg") center center / cover no-repeat;
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+.slider_content{
+	color: #FFF;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	text-align: center;
+}
+.slider_head{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+}
+.slyder_text{
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 2rem;
+}
+.academysection{
+	background-color: #a3a1a9;
+	width: 100%;
+	height: 1200px;
+
+}
+.div1academy{
+	padding-left: 200px;
+	padding-top: 100px;
+	padding-right: 200px;
+	padding-bottom: 50px;
+	height: 600px;
+}
+.div1academyimage{
+	background: url("three.jpg") center center / cover no-repeat;
+	width: 50%;
+	height: 100%;
+}
