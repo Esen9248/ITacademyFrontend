@@ -1,0 +1,31 @@
+(function () {
+  var menuButton = document.querySelectorAll('.btn--mobile-menu');
+  if ( menuButton.length > 0) {
+    for ( var i = 0; i < menuButton.length; i = i + 1) {
+      menuButton[i].addEventListener('click', toggleMe);
+      // console.log(menuButton[i]);
+    }
+  } else {
+    console.log('error');
+  }
+})();
+function toggleMe() {
+  var targets = document.querySelectorAll('[data-target=mobile-nav]');
+  console.log(targets);
+  if ( targets.length > 0) {
+    for ( var i = 0; i < targets.length; i = i + 1) {
+      targets[i].classList.toggle('active');
+    }
+  } else {
+    console.log('error');
+  }
+}
+var $page = $("html, body");
+  $("a[href*='#']").click(function(){
+    $page.animate({
+      scrollTop: $($.attr(this, "href")).offset().top
+    },1000);
+    return false;
+  });
+
+

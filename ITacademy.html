@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-	<title>IT academy</title>
+	<title>IT Academy</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet"  href="ITacademystyle.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top" id="scroll">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="#"><i class="icon icon-smile"></i> IT Academy</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,32 +26,93 @@
      <div class="top_table">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#academy">Академия <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Курсы</a></li>
-        <li><a href="#">Партнеры</a></li>
-        <li><a href="#">Отзывы</a></li>
-        <li><a href="#">Контакы</a></li>
+        <li><a href="#courses">Курсы</a></li>
+        <li><a href="#partners">Партнеры</a></li>
+        <li><a href="#contacts">Контакы</a></li>
     </ul>
   </div>
 </div>
 </nav>
 <section class="slider">
   <div class="slider_content">
-  <h1 class="slider_head">Наши курсы - самый короткий путь в IT</h1>
-    <p class="slider_text">Освойте одну из самых востребованных и высокооплачиваемых профессий всего за 9 месяцев</p>
+  <h1 class="slider_head">Наши курсы - самый короткий путь в <br> IT</h1>
+    <p class="slider_text">Освойте одну из самых востребованных и высокооплачиваемых профессий всего за 9 <br> месяцев</p>
   </div>
 </section>
 <section class="academysection" id="academy">
-  <div class="div1academy">
-    <div class="div1academyimage">
-      
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6" >
+        <img class="div1academyimage" src="three.jpg">
     </div>
-    
+    <div class="col-md-6 div1academycontent">
+      <h2 class="academyhead"><b>IT Academy</b></h2>
+      <ul class="academycontent">
+        <li>Лучшие преподаватели-практики</li>
+        <li>Содействие в трудоустройстве после обучения</li>
+        <li>Стажировка в реальных проектах и компаниях</li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <br>
+    <div class="container"><div class="border"></div></div>
+    <br>
+    <div class="container">
+      <div class="row rowacademy">
+        <div class="col-md-6">
+          <img class="div1academyimage" src="en2.jpg">
+        </div>
+        <div class="col-md-6">
+          <h2 class="academyhead"><b>Преимущества</b></h2>
+          <ul class="academycontent">
+            <li>Гибкое расписание занятий</li>
+            <li>Новейшие Учебные программы</li>
+            <li>Интенсивное обучение - (ежедневно)</li>
+            <li>Сотрудничество с <b>КАРПОУ</b></li>
+            <li>Встречи с крутыми спикерами</li>
+          </ul>
+        </div>
+      </div>
+         </div>
+</section>
+<section id="courses" class="coursessection">
+  <h2 class="courseshead"><b>Курсы</b></h2>
+  <div class="container coursesposition">
+    <div class="row rowcourses">
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-js"></i></a></div>
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-java"></i></a></div>
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-php"></i></a></div>
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-python"></i></a></div>
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-ruby"></i></a></div>
+      <div class="col-md-4 coursesimages"><a class="bordercourses" href="#"><i class="icon icon-html"></i></a></div>
+
+    </div>
+</section>
+<br>
+<section class="documents">
+  <h4 class="documentshead"><b>Для поступения необходимо:</b></h4>
+  <div class="container">
+    <ul class="ul1documents">
+      <li>Пройти вступительные тесты (19 августа в 11.00, 13.00, 15.00, 17.00 в здании ОК"Илим")</li>
+      <li>Представить пакет документов
+        <ul>
+          <li>копия паспорта</li>
+          <li>копия документа об образовании</li>
+          <li>2 цветные фото 3*4</li>
+          <li>медицинская справка №086</li>
+        </ul>
+      </li>
+      <li>Внести оплату за обучение</li>
+      <li>Иметь свой ноутбук для занятий</li>
+    </ul>
   </div>
 </section>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js" type="text/javascript" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript" ></script>
+<script src="ITacademy.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
