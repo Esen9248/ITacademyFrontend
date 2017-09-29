@@ -126,6 +126,7 @@ body{
 .navbar-brand .icon{
 	width: 48px;
 	height: 48px;
+	color: #000;
 }
 .top_table{
 	padding-right: 50px;
@@ -220,19 +221,19 @@ body{
 text-decoration: none;
 	color: #FFCA28;
 }
-.rowcourses :nth-child(2n) a:hover {
+.rowcourses :nth-child(2) a:hover {
 text-decoration: none;
 	color: #1565C0;
 }
-.rowcourses :nth-child(3n) a:hover {
+.rowcourses :nth-child(3) a:hover {
 text-decoration: none;
 	color: #4A148C;
 }
-.rowcourses :nth-child(4n) a:hover {
+.rowcourses :nth-child(4) a:hover {
 text-decoration: none;
 	color: #4527A0;
 }
-.rowcourses :nth-child(5n) a:hover {
+.rowcourses :nth-child(5) a:hover {
 text-decoration: none;
 	color: #D50000;
 }
@@ -256,4 +257,104 @@ text-decoration: none;
 	list-style: none;
 	color: #F5F5F5;
 	font-size: 2.2rem;
+}
+.commentsection{
+	width: 100%;
+	height: 700px;
+	background-color: #F5F5F5;
+}
+.commenthead{
+	color: #292F36;
+	font-size: 3rem;
+	text-align: center;
+	padding: 30px;
+	margin-top: 0;
+}
+.partnerssection{
+	width: 100%;
+	height: 200px;
+}
+.partnershead{
+	text-align: center;
+	color: #292F36;
+	font-size: 3rem;
+}
+.partnersimg{
+	width: 120px;
+	height: 100px;
+}
+.partnersposition{
+	padding-left: 200px;
+}
+.contactssection{
+width: 100%;
+height: 600px;
+background-color: #8D8D92;
+}
+.poweredsection{
+	width: 100%;
+	height: 60px;
+	background-color: #292F36;
+}
+.powered{
+	padding-top: 20px;
+	color:#8D8D92;
+	font-size: 1.5rem;
+	text-align: center;
+	width: 50%;
+}
+.contactscontent{
+
+}
+.speech-bubble {
+	position: relative;
+	background: #22b6d0;
+	border-radius: .4em;
+}
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 15%;
+	width: 0;
+	height: 0;
+	border: 16px solid transparent;
+	border-top-color: #22b6d0;
+	border-bottom: 0;
+	margin-left: -16px;
+	margin-bottom: -16px;
+}
+.mybubble{
+	margin:30px;
+	width: 280px;
+	height: 330px;
+	color: #F5F5F5;
+}
+.mybubble2{
+	margin:30px;
+	width: 280px;
+	height: 390px;
+	color: #F5F5F5;
+}
+.mybubble3{
+	margin:30px;
+	width: 280px;
+	height: 350px;
+	color: #F5F5F5;
+}
+.contactsheads{
+	color: #FFC857;
+    box-shadow: 0 3px 0 #FFC857;
+    display: inline-block;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    padding-top: 40px;
+}
+.contsctsul{
+	list-style: none;
+}
+.contactsa{
+	color:#F5F5F5;
+	text-decoration: none;
+	padding-top:5px;
 }
