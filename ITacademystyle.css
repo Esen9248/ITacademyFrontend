@@ -160,7 +160,10 @@ body{
 	font-size: 50px;
 	color: #fff;
 }
-
+a .slider_icon:hover{
+	text-decoration: none;
+	font-size: 60px;
+}
 
 .academysection{
 	background-color: #8D8D92;
@@ -218,7 +221,6 @@ body{
 	position: relative;
 }
 .bordercourses{
-	text-decoration: none;
 	color: black;
 	padding: 20px;
 }
@@ -330,7 +332,7 @@ background-color: #8D8D92;
 }
 .mybubble{
 	margin:30px;
-	width: 280px;
+	width: 290px;
 	height: 330px;
 	color: #F5F5F5;
 }
@@ -338,7 +340,7 @@ background-color: #8D8D92;
 .mybubble2{
 	margin:30px;
 	width: 280px;
-	height: 390px;
+	height: 370px;
 	color: #F5F5F5;
 }
 .mybubble3{
@@ -373,5 +375,21 @@ background-color: #8D8D92;
 	padding-top:5px;	
 	font-weight: 500;
 }
+
+.bubbleimg1{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+float: left;
+}
+.bubbleimgdiv{
+	padding-left: 30px;
+}
+.bubbletext{
+	float: left;
+	padding-left: 5px;
+}
+
+
 
 
